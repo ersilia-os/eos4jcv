@@ -36,7 +36,7 @@ Publication:
 Source Code: https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d
 License: GPL-3.0-or-later
 Incorporation Date: '2025-06-25'
-Last Packaging Date: '2025-10-15'
+Last Packaging Date: '2025-12-30'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4jcv.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4jcv
@@ -45,9 +45,9 @@ Docker Architecture:
   - ARM64
 Model Size: 2728.0
 Environment Size: 1295.0
-Image Size: 9461.7
-Computational Performance 1: 32.3
-Computational Performance 2: 96.74
-Computational Performance 3: 853.71
-Computational Performance 4: -1.0
+Image Size: 9468.77
+Computational Performance 1: 32.33
+Computational Performance 2: 30.85
+Computational Performance 3: 99.74
+Computational Performance 4: 838.36
 Computational Performance 5: -1.0
