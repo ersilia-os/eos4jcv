@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D E1-5
 
-Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties. This model corresponds to the Chemical Checker spaces E1, E2, E3, E4 and E5.
+Places a compound within the clinical level of the Chemical Checker, five E spaces spanning therapeutic areas, indications, side effects, diseases and drug-drug interactions. These descriptors sit at the most integrated end of the resource, furthest from raw structure. They come from signaturizers retrained on three-dimensional representations after an analysis of over a million compounds found around 40% of stereoisomer pairs differing in bioactivity. Clinical signatures are extrapolated for unstudied compounds and carry correspondingly wide uncertainty.
 
 This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 ### Output
 - **Output Dimension:** `640`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representation of a molecule
+- **Interpretation:** 640 stereochemistry-aware bioactivity features spanning the five clinical spaces of the Chemical Checker.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
