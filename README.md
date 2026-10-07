@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D E1-5
 
-Places a compound within the clinical level of the Chemical Checker, five E spaces spanning therapeutic areas, indications, side effects, diseases and drug-drug interactions. These descriptors sit at the most integrated end of the resource, furthest from raw structure. They come from signaturizers retrained on three-dimensional representations after an analysis of over a million compounds found around 40% of stereoisomer pairs differing in bioactivity. Clinical signatures are extrapolated for unstudied compounds and carry correspondingly wide uncertainty.
+Places a compound within the clinical level of the Chemical Checker, five E spaces spanning therapeutic areas, indications, side effects, disease and toxicology annotations, and drug-drug interactions. These sit at the most integrated end of the resource, furthest from raw structure, and come from networks that fine-tune Uni-Mol on three-dimensional conformers after an analysis of over a million compounds found around 40% of stereoisomer pairs differing in bioactivity. Clinical signatures are extrapolated for unstudied compounds and carry correspondingly wide uncertainty.
 
 This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 
