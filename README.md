@@ -2,7 +2,8 @@
 
 Places a compound within the clinical level of the Chemical Checker, five E spaces spanning therapeutic areas, indications, side effects, disease and toxicology annotations, and drug-drug interactions. These sit at the most integrated end of the resource, furthest from raw structure, and come from networks that fine-tune Uni-Mol on three-dimensional conformers after an analysis of over a million compounds found around 40% of stereoisomer pairs differing in bioactivity. Clinical signatures are extrapolated for unstudied compounds and carry correspondingly wide uncertainty.
 
-This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
+This model was incorporated on 2025-06-25.
+Last packaged on 2025-12-30.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 640 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4jcv](https://hub.docker.com/r/ersiliaos/eos4jcv)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4jcv.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4jcv.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4jcv_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4jcv_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2728`
